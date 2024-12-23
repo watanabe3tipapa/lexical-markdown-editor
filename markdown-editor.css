@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.editor-input {
+  min-height: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.editor-placeholder {
+  color: #999;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+}
+
+.markdown-preview pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+}
